@@ -1,0 +1,162 @@
+/* =======================================
+ BODY
+ ======================================= */   
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 0 20px;
+}
+
+/* =======================================
+ HEADINGS
+ ======================================= */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0d0d0d
+}
+
+/* =======================================
+ PARAGRAPHS
+ ======================================= */
+
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+/* =======================================
+ IMAGES
+ ======================================= */
+
+img {
+    width: 250px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #ffffff;
+}
+
+/* ================================
+   DEFAULT DIV
+   ================================ */
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+
+
+/* ================================
+   INTRODUCTION
+   ================================ */
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+
+/* ================================
+   RED SECTION
+   ================================ */
+
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+}
+
+
+/* ================================
+   BLUE SECTION
+   ================================ */
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+
+    border-right-width: 5px;
+    border-top-width: 2px;
+}
+
+/* Accessibility / contrast fix */
+
+.blue h2,
+.blue p {
+    color: #C4C4C4;
+}
+
+
+/* ================================
+   YELLOW SECTION
+   ================================ */
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+}
+
+/* Accessibility / contrast fix */
+
+.yellow p {
+    color: #707070;
+}
+
+
+/* ================================
+   GREEN SECTION
+   ================================ */
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+
+    border-right-width: 5px;
+    border-top-width: 2px;
+}
+
+
+/* ================================
+   FOOTER
+   ================================ */
+
+footer {
+    background: linear-gradient(
+        90deg,
+        #000000 0%,
+        #0000FF 25%,
+        #0066FF 70%,
+        #000000 100%
+    );
+
+    border: 5px solid #FFFFFF;
+}
+
+
+/* Paragraphs specifically inside footer */
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+  padding: 15px 15px 15px 0;
+}
